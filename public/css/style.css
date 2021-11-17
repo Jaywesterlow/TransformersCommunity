@@ -1,0 +1,101 @@
+:root {
+    --font-weight: 600;
+    --color1: #F4FAFF;
+    --color2: #FE4E02;
+    --color3: #1E07A1;
+    --color4: #5626CA;
+}
+
+
+body {
+    background-color: var(--color1) !important;
+}
+
+#navbar {
+    background-color: var(--color1) !important;
+}
+
+#nav-item-home {
+    color: var(--color3);
+}
+
+#nav-item-over-ons {
+    color: var(--color3);
+}
+
+#nav-item-wordt-transformer {
+    color: var(--color3);
+}
+
+#nav-item-feed {
+    color: var(--color2);
+}
+
+#nav-item-contact {
+    color: var(--color3);
+}
+
+img.navbar-brand {
+    height: 40px;
+}
+
+#nav-item-login {
+    background-color: var(--color2) !important;
+    padding: 0 25px !important;
+}
+
+#nav-item-aanmelden {
+    color: #1E07A0;
+    font-weight: 500;
+}
+
+/* *---------------------------- END NAV ---------------------------- */
+
+.hero-container {
+    background: rgb(30,7,161);
+    background: linear-gradient(54deg, rgba(30,7,161,1) 58%, rgba(86,38,202,1) 90%);
+
+}
+
+.carousel-img {
+    border-radius: 12px !important;
+}
+
+#feed-button {
+    background-color: var(--color2) !important;
+}
+
+/* *---------------------------- Topics ---------------------------- */
+
+#topicsNav {
+    background-color: rgba(86, 38, 202, 0.89) !important;
+}
+
+
+/* *---------------------------- Post / Posts ------------------------------ */
+
+article + article {
+    margin-top: 3rem;
+    padding-top: 3rem;
+    border-top: 1px solid #c5c5c5;
+}
+
+.center {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+.title{
+    border-radius: 4px !important;
+}
+
+.des{
+    width: 440px;
+    border-radius: 4px;
+}
+
+.mess{
+    width: 420px;
+    border-radius: 4px;
+}
